@@ -1,0 +1,53 @@
+body {
+  background-image: url('http://primusdatabase.com/images/archive/2/21/20130908025407!Starry_sky.jpg');
+  font-family: 'Roboto', serif;
+}
+
+.solarSystem {
+height: 100%;
+width: 100%;
+}
+
+h1 {
+  /* font-family: Helvetica ,sans-serif; */
+  color: white;
+  text-align: center;
+}
+
+img  {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100px;
+
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    /* background-color: grey; */
+
+  }
+
+a {
+  color: white;
+  font-size: 30px;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+nav > a:hover {
+  color: red;
+  text-shadow: 4px 4px 4px red;
+}
+
+
+  h2, p {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  }

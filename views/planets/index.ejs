@@ -1,0 +1,11 @@
+<h1>All the planets in our Solar System</h1>
+<div class = "planets">
+  <% planets.forEach(planet => {%>
+    <div>
+    <a href="/planets/<%= planet.id %>">
+    <img src="<%= planet.img %>" />
+    <h3><%= planet.name %></h3>
+    </a>
+    </div>
+    <% }) %>
+  </div>

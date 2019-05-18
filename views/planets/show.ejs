@@ -1,0 +1,12 @@
+<h2>Welcome to <%= name %></h2>
+
+
+<p><%= name %> take <%= orbitTime %> days to orbit around the sun</p>
+
+<p><%= name %> has alien life, called <%= natives %>.</p>
+
+<img src="<%= img %>"/>
+  <form action="/planets/<%= _id %>?_method=DELETE" method="post">
+    <button>Delete</button>
+  </form>
+  <a href="/planets/<%= _id %>/edit"><button>Edit</button></a>
